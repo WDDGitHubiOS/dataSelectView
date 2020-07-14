@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "https://github.com/WDDGitHubiOS/dataSelectView"
+  spec.homepage     = "https://github.com/WDDGitHubiOS/dataSelectView.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -133,6 +133,5 @@ Pod::Spec.new do |spec|
 
   spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency "Masonry",
-
 
 end
